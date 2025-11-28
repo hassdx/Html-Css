@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: "Stack Sans Text", sans-serif;
+    background: url('images/main1.jpg') no-repeat center center fixed; /* Set the image as the background */
+    background-size: cover; /* Make the image cover the entire background */
+}
+
+.header {
+    background-color: #ED5709;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 30px;
+    z-index: 10; /* Ensure the header stays above the background */
+    position: relative;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+}
+
+.requests a {
+    color: black;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: small;
+}
+
+.requests a:hover {
+    color: rgb(238, 238, 238);
+}
+
+.requests img {
+    width: 20px;
+    padding: 0 10px;
+}
+
+.container {
+    position: relative;
+    z-index: 1; /* Ensure content is above the background */
+    text-align: center;
+    padding: 50px 20px; /* Add padding to create space below the header */
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.image {
+    width: 100%; /* Ensures the image is responsive */
+    height: auto;
+    display: block;
+}
+
+/* Style the button group and position it on top of the image */
+.button-group {
+    position: absolute;
+    top: 50%; /* Adjust vertical position */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, 50%); /* Center the group */
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 15px; /* Add spacing between buttons */
+}
+
+/* Style the buttons */
+.button-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    background-color: #ED5709; 
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Add hover effect for buttons */
+.button-group button:hover {
+    background-color: #edeff2; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.footer {
+    align-items: center;
+    background-color: #ED5709;
+    text-align: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+.footer img {
+    position: absolute;
+    top: 40%;
+    right: 90%;
+    width: 50px;
+    border-radius: 10px;
+    /* transform: translate(90%, -80%); */
+   
+}
+
+.composents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+.composents a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    
+
+}
+
+.composents a:hover {
+    color: rgb(246, 242, 242);
+}
+
