@@ -1,0 +1,143 @@
+body{
+    background-color: #e4e8ed;
+    margin: 0;
+    font-family: "Stack Sans Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+   
+  
+
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    gap: 10px;
+    width: 26%;
+    height: 80vh;
+    top: 10%;
+    right: 37%;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    
+
+}
+
+
+
+.container img{
+   
+    width:30% ;
+    padding: 15% 20%  10% 20%;
+}
+.info{
+    position: relative;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    margin: 0;
+    width: 80%;
+    gap: 10px;
+}
+
+.info input{
+    padding: 8px 8px;
+    border-radius: 8px;
+    border: 1px solid #b9b9b9;    
+    font-size: 15px;
+
+}
+
+.info button{
+
+    width: 21%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #0f6cbf;
+    color: #ffffff;
+    border-color: #0f6cbf;
+    border: none;
+    font-size: 14px;
+   
+   
+}
+.info button :hover{
+    background-color:  #a3052a;
+}
+
+.info a{
+    text-decoration: none;
+    padding: 8px 0px;
+    font-size: 11px;
+    font-weight: 300;
+    color: #0f6cbf;
+}
+
+.guest-part{
+    
+    padding: 0 10%;
+    gap: 10px;
+}
+.font{
+    font-size: large;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+
+
+
+
+.button{
+
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #ced4da;
+    margin: 5px 0 10px 0;
+    font-size: 11px;
+    font-weight: 200;
+
+}
+
+
+.button :hover{
+    background-color: #e9ecef;
+}
+
+
+.bottom{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    transform: translate(-40%, -20%);
+}
+
+.lang{
+    text-decoration: none;
+    padding: 8px 0px;
+    font-size: 10px;
+    font-weight: 300;
+    color: #0f6cbf;
+
+} 
+
+.lang :hover{
+    background-color: #a3052a;
+}
+
+
+
+
+
